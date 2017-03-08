@@ -1,0 +1,91 @@
+.idea-form__input,
+.idea-form__input > input { 
+	width: 100%;
+}
+
+.idea-form__input > textarea {
+	width: 100%;
+	height: 150px;	
+}
+
+.idea-form__submit {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 75px;
+}
+
+.idea-form__submit > input {
+	padding:5px 15px; 
+    background:#005689; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.idea-form {
+	background-color: white;
+}
+
+.ReactTags__tags {
+	margin-top: 10px;
+}
+
+.ReactTags__tagInputField {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.ReactTags__tag,
+.idea-card__tag {
+	background-color: lightblue;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.idea-card__tag {
+	margin-top: 5px;
+	float: right;
+}
+
+.idea-card {
+	background-color: #fffbec;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top: 1px gray solid;
+}
+
+.idea-card__title {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+.idea-card__votes {
+	text-align: center;
+}
+
+.footer {
+	margin-top: 35px;
+	padding-top: 15px;
+	background-color: rgb(72, 72, 72);
+	color: #dcdcdc;
+}
+
+.header {
+	background-color: rgb(0, 86, 137);
+}
+
+.header {
+	color: white !important;
+}
+
+.idea-link > a {
+	color:white !important;
+}
+
+.idea-card__upvote {
+	cursor: pointer;
+	text-align: center; 
+}
